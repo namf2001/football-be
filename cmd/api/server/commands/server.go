@@ -1,15 +1,14 @@
-package server
+package commands
 
 import (
 	"fmt"
+	"football-be/internal/database"
 	"net/http"
 	"os"
 	"strconv"
 	"time"
 
 	_ "github.com/joho/godotenv/autoload"
-
-	"football-be/internal/database"
 )
 
 type Server struct {
